@@ -1,0 +1,44 @@
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.cache
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Logs e variáveis locais
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+!.env.example
+
+# Node / Angular
+node_modules/
+dist/
+coverage/
+.angular/
+.npm/
+
+# .NET / C#
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Dependências e arquivos gerados
+package-lock.json.*
+yarn.lock.*
