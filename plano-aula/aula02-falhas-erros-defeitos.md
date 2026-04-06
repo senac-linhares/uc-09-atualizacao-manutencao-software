@@ -85,52 +85,49 @@ Imagine um aplicativo de delivery:
 
 ## 🗂️ Como Organizar o Controle de Defeitos no GitHub
 
-1. **Criar uma Issue**
-   - Clique em "Issues" e depois em "New Issue".
-   - Dê um título claro e descreva o problema.
-   - Exemplo: `Erro ao calcular desconto para usuários de 18 anos`.
+1. **Abrir uma Issue**
+   - Acesse a aba **Issues** do seu repositório e clique em **New issue**.
+   - Se o repositório tiver modelos (templates), escolha um ou clique em **Open a blank issue**.
+   - Dê um título claro (ex: `[BUG] Erro no cálculo de frete`) e use a descrição para explicar como reproduzir o problema.
    
-   ![Criando uma Issue no GitHub](https://docs.github.com/assets/cb-33224/images/help/issues/new-issue-button.png)
-   *Botão para criar uma nova Issue no GitHub*
+   ![Criando uma Issue no GitHub](https://docs.github.com/assets/cb-167438/mw-1440/images/help/issues/quickstart-create-large-initiative-issue.webp)
+   *Interface para criação de uma nova Issue*
 
-2. **Adicionar Labels**
-   - Use etiquetas como `bug`, `urgente`, `frontend`, etc.
+2. **Adicionar Listas de Tarefas (Task Lists)**
+   - No corpo da descrição, você pode criar uma lista de tarefas usando `[ ]`.
+   - Isso ajuda a dividir o problema em passos menores que podem ser marcados como concluídos.
+   - Exemplo:
+     ```markdown
+     - [ ] Identificar a linha do erro
+     - [ ] Criar teste unitário
+     - [ ] Corrigir lógica no backend
+     ```
+
+3. **Categorizar com Labels e Tipos de Problema**
+   - Use **Labels** (rótulos) como `bug`, `documentation` ou `priority: high`. 
+   - Se sua organização permitir, adicione também o **Issue Type** para classificar melhor o tipo de trabalho.
    
-   ![Adicionando labels em uma Issue](https://docs.github.com/assets/cb-33224/images/help/issues/issue-labels.png)
-   *Adicionando labels em uma Issue*
+   ![Adicionando labels em uma Issue](https://docs.github.com/assets/cb-94617/mw-1440/images/help/issues/quickstart-add-label-to-issue.webp)
+   *Categorização rápida com etiquetas*
 
-3. **Atribuir Responsáveis**
-   - Marque quem vai resolver o problema.
+4. **Atribuir Responsáveis e Marcos (Milestones)**
+   - **Assignees:** Defina quem será o responsável por resolver.
+   - **Milestones:** Associe a um "Marco" (ex: `Sprint 1`, `Lançamento v1.0`) para acompanhar o progresso em relação a uma data específica.
    
-   ![Atribuindo responsável na Issue](https://docs.github.com/assets/cb-33224/images/help/issues/issue-assignees.png)
-   *Atribuindo responsável na Issue*
+   ![Atribuindo responsável na Issue](https://docs.github.com/assets/cb-216187/mw-1440/images/help/issues/quickstart-collaborating-on-issue.webp)
+   *Definindo quem resolve e o prazo (Marco)*
 
-4. **Usar Projetos**
-   - Adicione a issue a um quadro Kanban para acompanhar o progresso.
+5. **Organizar em Projetos e Subproblemas**
+   - **Projects:** Adicione a Issue a um quadro Kanban ou Tabela de Projeto para visualização estratégica.
+   - **Sub-issues:** Use para criar uma hierarquia, transformando tarefas complexas em uma árvore de problemas menores.
    
-   ![Adicionando Issue ao Project Board](https://docs.github.com/assets/cb-20363/images/help/projects/projects-add-card.png)
-   *Adicionando Issue ao Project Board*
+   ![Visualização em Projetos](https://docs.github.com/assets/cb-96059/mw-1440/images/help/issues/quickstart-projects-table-view.webp)
+   *Visualização de Issues dentro de um Projeto*
 
-5. **Fechar a Issue**
-   - Quando corrigido, feche a issue e, se possível, explique como foi resolvido.
+6. **Comunicação e Fechamento**
+   - Use o campo de comentários para debater soluções. Use `@menção` para chamar colegas e `#número` para referenciar outros problemas ou Pull Requests.
+   - Quando o defeito for corrigido, clique em **Close issue**.
    
-   ![Fechando uma Issue](https://docs.github.com/assets/cb-20363/images/help/issues/close-issue-button.png)
-   *Fechando uma Issue*
-
----
-
-## 📝 Exercício Prático
-
-1. **Em duplas:**  
-   - Pensem em um erro comum que pode acontecer em um sistema (ex: senha fraca aceita, cálculo errado, etc).
-   - Descrevam o erro, o defeito e a falha que pode acontecer.
-   - Criem uma issue fictícia no GitHub (pode ser só no papel ou em um repositório de teste), preenchendo:
-     - Título
-     - Descrição
-     - Labels sugeridas
-
-2. **Bônus:**  
-   - Montem um mini-quadro Kanban (pode ser no papel) mostrando o fluxo da issue.
 
 ---
 
