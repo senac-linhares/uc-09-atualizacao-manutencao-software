@@ -1,78 +1,83 @@
-# UC09 — Atualização e Manutenção de Software
+# UC09 — Operações de Atualização e Manutenção de Software
 
-## 📘 Visão geral do pacote
-Este repositório reúne materiais para a unidade curricular **Atualização e Manutenção de Software**.
-
-### Objetivo
-Capacitar o aluno a:
-- identificar e corrigir falhas em produção;
-- implementar alterações de código com segurança;
-- propor melhorias técnicas;
-- monitorar métricas e sinais de erro;
-- versionar atualizações com boas práticas.
-
-### Carga horária
-**96 horas**, com sugestão de organização em:
-- **12 encontros de 8 h**, ou
-- **24 encontros de 4 h**.
-
-### Produtos finais do aluno
-Ao final da UC, o estudante deverá produzir:
-- relatório de manutenção;
-- histórico de `commits` e `PRs`;
-- scripts ou exemplos de monitoramento;
-- checklist de deploy;
-- mini-projeto de melhoria com testes e documentação.
+<p align="center">
+  <img src="assets/aulas/aula01-intro.png" alt="O Iceberg do Software" width="800">
+</p>
 
 ---
 
-## 🧩 Estrutura do repositório
+## 🏔️ Por que estudar Manutenção de Software?
 
-```text
-README.md
-plano-de-aula/
-unidade-uc09/
-templates/
-recursos/
-```
+No mercado real, o lançamento de um sistema é apenas o **primeiro passo**. Estima-se que mais de **70% do tempo de vida de um software** é gasto em manutenção e evolução. 
 
-### Pastas principais
-- `plano-de-aula/`: cronograma e aulas prontas.
-- `unidade-uc09/`: conceitos, atividades, avaliações e projeto final.
-- `templates/`: modelos para uso em versionamento e deploy.
-- `recursos/`: leituras e materiais de apoio.
-
-### Stack trabalhada com a turma
-Os exemplos práticos e exercícios deste pacote foram alinhados com as tecnologias já estudadas pelos alunos:
-- `C# API`
-- `MySQL`
-- `Angular`
-- `Flutter`
-- `HTML`, `CSS`, `JavaScript` e `TypeScript`
+Saber construir do zero é ótimo, mas saber **manter, corrigir e evoluir sistemas complexos** é o que separa os amadores dos engenheiros de software de elite. Esta unidade curricular transformará você no profissional que as empresas mais buscam: o **"Problem Solver"**.
 
 ---
 
-## 🗂️ Módulos da unidade
+## 🎯 Seus Objetivos de Conquista
 
-| Módulo | Tema | Carga sugerida |
-|---|---|---:|
-| 1 | Fundamentos de manutenção | 16 h |
-| 2 | Estimativas e planejamento | 12 h |
-| 3 | Monitoramento e métricas | 20 h |
-| 4 | Correção e deploy seguro | 24 h |
-| 5 | Versionamento e controle de mudanças | 12 h |
-| 6 | Projeto prático e avaliação | 12 h |
+Nesta jornada de **96 horas**, você irá dominar:
 
----
-
-## 🚀 Como usar este material
-1. Comece por `plano-de-aula/cronograma.md`.
-2. Use os arquivos de `plano-de-aula/aulas/` para conduzir os encontros.
-3. Aplique as práticas em `unidade-uc09/exemplos/`.
-4. Utilize os modelos de `templates/` nas atividades.
-5. Finalize com o desafio em `unidade-uc09/projeto-final/enunciado.md`.
+*   ✅ **Detecção Investigativa:** Identificar e corrigir falhas em sistemas já em produção.
+*   📈 **Gestão de Valor:** Priorizar o que realmente importa usando técnicas como MoSCoW.
+*   🏗️ **Arquitetura de Sustentação:** Propor melhorias que aumentam a vida útil do software.
+*   📡 **Monitoramento Proativo:** Criar métricas para saber que algo quebrou antes do cliente reclamar.
+*   🛡️ **Soberania de Versão:** Dominar Git e PRs para atualizações sem riscos.
 
 ---
 
-## ✅ Resultado esperado
-Ao concluir esta UC, o aluno deverá ser capaz de atuar de forma mais confiante em cenários de manutenção, correção, melhoria contínua e atualização segura de software.
+## 🗺️ O Seu Roadmap da Unidade
+
+Abaixo, os marcos principais da nossa trilha de aprendizado:
+
+| Fase | Aulas | Foco Principal |
+| :--- | :--- | :--- |
+| **1. Fundamentos** | 01 - 03 | Tipos de Manutenção, Falhas vs. Erros e Documentação Técnica. |
+| **2. Planejamento** | 04 - 05 | Estimativas (T-Shirt Size), Priorização MoSCoW e Comunicação Assertiva. |
+| **3. Observabilidade** | 06 - 08 | Logs, Métricas, Dashboards e Debugging Profissional. |
+| **4. Solução** | 09 - 10 | Bugfixing, Testes de Regressão e Deploy Seguro. |
+| **5. Governança** | 11 - 12 | Git Profissional, Pull Requests, Changelogs e Projeto Final. |
+
+---
+
+## 🛠️ Laboratório Prático: Pet Shop Patas Felizes
+
+Esqueça a teoria seca. Toda a sua aprendizagem será aplicada em um **cenário realista**. 
+
+<p align="center">
+  <img src="assets/aulas/sa-02-release.png" alt="Release Management" width="400">
+</p>
+
+Você será o engenheiro responsável pela modernização do **Pet Shop Patas Felizes**. O projeto foi entregue com bugs críticos, falta de documentação e sérios problemas de acessibilidade. Sua missão é levar esse código do "caos" à "Excelência Técnica".
+
+---
+
+## ⚙️ Tecnologias & Ferramentas
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
+
+## 📁 Estrutura do Repositório
+
+- 🏫 `plano-de-aula/`: Cronograma e planos de aulas detalhados.
+- 📂 `assets/`: Imagens e recursos visuais das aulas.
+- 📝 `git-templates/`: Modelos profissionais para Issues e PRs.
+- 🐾 `exemplos/`: Código base para as atividades práticas (Pet Shop).
+
+---
+
+> [!TIP]
+> **Dica de Ouro:** O melhor desenvolvedor não é o que escreve mais linhas de código, mas o que escreve código que pode ser mantido por outros no futuro.
+
+---
+
+<p align="center">
+  <b>SENAC Linhares - Unidade Curricular 09</b><br>
+  <i>"Software não se termina, se evolui com maestria."</i>
+</p>
