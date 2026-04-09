@@ -5,6 +5,13 @@
 
 ---
 
+## 👤 User Story
+**Como** [tipo de usuário]
+**eu quero** [realizar uma ação]
+**para que** [eu obtenha um valor/benefício].
+
+---
+
 ## Identificação
 
 | Campo | Informação |
@@ -14,8 +21,6 @@
 | **Ator Principal** | Quem utiliza essa funcionalidade (ex: Visitante, Cliente, Administrador) |
 | **Milestone** | lp-petshop-v2 |
 | **Prioridade** | Alta / Média / Baixa |
-| **Labels** | `enhancement` |
-
 ---
 
 ## Descrição
