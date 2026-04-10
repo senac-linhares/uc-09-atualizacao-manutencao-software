@@ -45,7 +45,7 @@ Abaixo, os marcos principais da nossa trilha de aprendizado:
 Esqueça a teoria seca. Toda a sua aprendizagem será aplicada em um **cenário realista**. 
 
 <p align="center">
-  <img src="assets/aulas/sa-02-release.png" alt="Release Management" width="400">
+  <img width="1845" height="903" alt="image" src="https://github.com/user-attachments/assets/b483d513-3e97-4533-bf63-06da61cf6f08" />
 </p>
 
 Você será o engenheiro responsável pela modernização do **Pet Shop Patas Felizes**. O projeto foi entregue com bugs críticos, falta de documentação e sérios problemas de acessibilidade. Sua missão é levar esse código do "caos" à "Excelência Técnica".
